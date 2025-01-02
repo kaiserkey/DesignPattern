@@ -207,3 +207,14 @@ Si metes demasiada lógica en el Singleton, se convierte en una clase difícil d
     **Solución**: Mantén al Singleton simple y enfocado.
 
 
+### ¿Por qué el patrón singleton se considera un antipatrón?
+- Los singletons no son fáciles de manejar con pruebas unitarias. No se puede controlar su instanciación y pueden conservar el estado entre invocaciones.
+- La memoria asignada a un singleton no se puede liberar.
+- En un entorno multiproceso, es posible que se deba proteger el acceso al objeto singleton (por ejemplo, mediante sincronización).
+- Los singletons promueven un acoplamiento estrecho entre clases, por lo que es difícil realizar pruebas.
+
+Diferencia entre clase estática y patrón singleton:
+- En C#, una clase estática no puede implementar una interfaz. Cuando una clase de instancia única necesita implementar una interfaz por alguna razón comercial o propósitos de IoC, puede usar el patrón Singleton sin una clase estática.
+- Puede clonar el objeto de Singleton, pero no puede clonar el objeto de clase estática .
+- El objeto Singleton se almacena en Heap, pero el objeto estático se almacena en stack.
+- Un singleton se puede inicializar de forma diferida o asincrónica, mientras que una clase estática generalmente se inicializa cuando se carga por primera vez.
