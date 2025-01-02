@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Factory Method\\FactoryMethodExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC356A47-CDA9-4903-B2BF-C514F2067E27}|FactoryMethodExample.csproj|c:\\users\\daniel.gonzalez\\codigo\\designpattern\\creational design patterns\\factory method\\factorymethodexample\\factorymethodexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC356A47-CDA9-4903-B2BF-C514F2067E27}|FactoryMethodExample.csproj|solutionrelative:factorymethodexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FactoryMethodExample",
+              "DocumentMoniker": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Factory Method\\FactoryMethodExample\\FactoryMethodExample.csproj",
+              "RelativeDocumentMoniker": "FactoryMethodExample.csproj",
+              "ToolTip": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Factory Method\\FactoryMethodExample\\FactoryMethodExample.csproj",
+              "RelativeToolTip": "FactoryMethodExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T20:27:09.653Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
