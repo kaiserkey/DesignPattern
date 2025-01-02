@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+4pF04G7cmk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Singleton\\SingletonExample\\SingletonExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daniel.gonzalez\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100-rc.2.24474.11\\microsoft.net.sdk.compilers.toolset.9.0.100-rc.2.24474.11.nupkg.sha512"
+  ],
+  "logs": []
+}
