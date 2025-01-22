@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFF417B9-2586-43EE-B230-FE14366F21DB}|SingletonExample.csproj|c:\\users\\daniel.gonzalez\\codigo\\designpattern\\creational design patterns\\singleton\\singletonexample\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFF417B9-2586-43EE-B230-FE14366F21DB}|SingletonExample.csproj|solutionrelative:cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFF417B9-2586-43EE-B230-FE14366F21DB}|SingletonExample.csproj|c:\\users\\daniel.gonzalez\\codigo\\designpattern\\creational design patterns\\singleton\\singletonexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFF417B9-2586-43EE-B230-FE14366F21DB}|SingletonExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF417B9-2586-43EE-B230-FE14366F21DB}|SingletonExample.csproj|c:\\users\\daniel.gonzalez\\codigo\\designpattern\\creational design patterns\\singleton\\singletonexample\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF417B9-2586-43EE-B230-FE14366F21DB}|SingletonExample.csproj|solutionrelative:cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Cache.cs",
               "DocumentMoniker": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\Cache.cs",
               "RelativeDocumentMoniker": "Cache.cs",
               "ToolTip": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\Cache.cs",
               "RelativeToolTip": "Cache.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswD4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T17:28:58.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T17:28:20.018Z",
               "EditorCaption": ""

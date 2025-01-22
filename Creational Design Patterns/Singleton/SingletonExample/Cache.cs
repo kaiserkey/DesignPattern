@@ -1,11 +1,24 @@
-﻿namespace SingletonExample
+﻿using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
+
+namespace SingletonExample
 {
-    public sealed class Cache
+    public sealed class Cache : ICloneable
     {
         /**
          * the singleton instance of the Cache class
          */
         private static readonly Lazy<Cache> instance = new Lazy<Cache>(()=>new Cache());
+
+        /**
+         * object to lock the access to the cache data structure
+         */
+        private static readonly object syncLock = new object();
+
+        /**
+         * Flag to check if the instance is created
+         */
+        private static bool isInstanceCreated = false;
 
         /**
          * Dictionary to store cache data
@@ -16,6 +29,12 @@
          * Private constructor to prevent instantiation
          */
         private Cache() {
+            if(isInstanceCreated)
+            {
+                throw new InvalidOperationException("An instance of Cache already exists.");
+            }
+
+            isInstanceCreated = true;
             cacheData = new Dictionary<string, string>();
         }
 
@@ -32,11 +51,10 @@
          */
         public void Add(string key, string value)
         {
-            lock (cacheData) {
+            lock (syncLock) {
                 cacheData[key] = value;
             }
         }
-
         /**
          * Get data from the cache
          * @param key Key to retrieve the data
@@ -44,9 +62,26 @@
          */
         public string Get(string key)
         {
-            lock(cacheData) {
+            lock(syncLock) {
                 return cacheData.ContainsKey(key) ? cacheData[key] : null;
             }
         }
+
+        /**
+         * Clone method to prevent cloning of the Cache object
+         */
+        public object Clone()
+        {
+            throw new NotSupportedException("Cloning of Cache is not allowed.");
+        }
+
+        /**
+         * Explicitly handle deserialization to ensure only one instance
+         */
+        protected Cache(SerializationInfo info, StreamingContext context)
+        {
+            throw new InvalidOperationException("Serialization of Cache is not allowed.");
+        }
+
     }
 }

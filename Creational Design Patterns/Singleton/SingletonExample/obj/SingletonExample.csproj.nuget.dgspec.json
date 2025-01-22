@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Singleton\\SingletonExample\\SingletonExample.csproj": {}
+    "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\SingletonExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Singleton\\SingletonExample\\SingletonExample.csproj": {
+    "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\SingletonExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Singleton\\SingletonExample\\SingletonExample.csproj",
+        "projectUniqueName": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\SingletonExample.csproj",
         "projectName": "SingletonExample",
-        "projectPath": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Singleton\\SingletonExample\\SingletonExample.csproj",
+        "projectPath": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\SingletonExample.csproj",
         "packagesPath": "C:\\Users\\daniel.gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Singleton\\SingletonExample\\obj\\",
+        "outputPath": "C:\\Users\\daniel.gonzalez\\Codigo\\DesignPattern\\Creational Design Patterns\\Singleton\\SingletonExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
